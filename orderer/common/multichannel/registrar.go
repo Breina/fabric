@@ -41,7 +41,7 @@ const (
 	epoch      = 0
 )
 
-var logger = flogging.MustGetLogger("orderer.commmon.multichannel")
+var logger = flogging.MustGetLogger("orderer.common.multichannel")
 
 // Registrar serves as a point of access and control for the individual channel resources.
 type Registrar struct {
